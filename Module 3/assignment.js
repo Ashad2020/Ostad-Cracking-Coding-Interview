@@ -18,9 +18,7 @@ function isValidParentheses(s) {
   return stack.length === 0;
 }
 
-// Test cases
-console.log(isValidParentheses("()")); // true
-console.log(isValidParentheses("()[]{}")); // true
-console.log(isValidParentheses("(]")); // false
-console.log(isValidParentheses("([)]")); // false
-console.log(isValidParentheses("{[]}")); // true
+/*
+time complexity: O(n);
+space complexity: O(n);
+*/
